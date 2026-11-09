@@ -6,7 +6,8 @@
   "workspaces": [
     "packages/docsync-core",
     "packages/docsync-cli",
-    "packages/docsync-vscode-extension"
+    "packages/docsync-vscode-extension",
+    "packages/stays-currency"
   ],
   "scripts": {
     "build": "npm run build --workspaces --if-present",

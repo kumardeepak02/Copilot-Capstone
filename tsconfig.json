@@ -3,6 +3,7 @@
   "references": [
     { "path": "packages/docsync-core" },
     { "path": "packages/docsync-cli" },
-    { "path": "packages/docsync-vscode-extension" }
+    { "path": "packages/docsync-vscode-extension" },
+    { "path": "packages/stays-currency" }
   ]
 }
