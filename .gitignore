@@ -4,4 +4,5 @@ dist/
 .env
 coverage/
 *.log
+jest-run-output.txt
 .DS_Store
