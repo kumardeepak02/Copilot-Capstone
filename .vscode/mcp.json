@@ -1,0 +1,40 @@
+{
+	"inputs": [
+		{
+			"id": "jira_pat",
+			"type": "promptString",
+			"description": "Jira Personal Access Token for jiraeu.epam.com",
+			"password": true
+		},
+		{
+			"id": "confluence_username",
+			"type": "promptString",
+			"description": "Confluence account email"
+		},
+		{
+			"id": "confluence_api_token",
+			"type": "promptString",
+			"description": "Confluence API token",
+			"password": true
+		}
+	],
+	"servers": {
+		"github": {
+			"url": "https://api.githubcopilot.com/mcp/"
+		},
+		"mcp-atlassian": {
+			"type": "stdio",
+			"command": "uvx",
+			"args": [
+				"mcp-atlassian"
+			],
+			"env": {
+				"JIRA_URL": "https://jiraeu.epam.com",
+				"JIRA_PERSONAL_TOKEN": "${input:jira_pat}",
+				"CONFLUENCE_URL": "https://decentdkdeepak.atlassian.net/",
+				"CONFLUENCE_USERNAME": "${input:confluence_username}",
+				"CONFLUENCE_API_TOKEN": "${input:confluence_api_token}"
+			}
+		}
+	}
+}
