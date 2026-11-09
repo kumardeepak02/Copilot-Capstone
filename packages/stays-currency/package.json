@@ -1,0 +1,10 @@
+{
+  "name": "stays-currency",
+  "version": "0.1.0",
+  "description": "EPMCDMETST-47868: Stays advanced filters and currency conversion/display logic",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build"
+  }
+}
