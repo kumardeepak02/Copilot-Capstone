@@ -1,0 +1,29 @@
+{
+  "name": "capstone-security-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "publisher": "capstone-local",
+  "displayName": "Capstone Security Prototype (Test Only)",
+  "main": "./dist/packages/vscode-extension/src/extension.cjs",
+  "activationEvents": ["onCommand:capstone.resumeJob"],
+  "contributes": {
+    "commands": [{ "command": "capstone.resumeJob", "title": "Capstone: Resume Synthetic Job (Test Only)" }]
+  },
+  "engines": {
+    "node": ">=24 <25",
+    "vscode": "^1.100.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "check": "npm run typecheck && npm test",
+    "ci:check": "node packages/action/src/check.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/vscode": "^1.146.0",
+    "typescript": "^7.0.2"
+  }
+}

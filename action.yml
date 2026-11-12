@@ -1,0 +1,22 @@
+name: Capstone isolated security checks
+description: Run synthetic-data prototype checks only; no deployment or PDF credential inputs.
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '24'
+    - name: Install and check
+      shell: pwsh
+      env:
+        ACTION_ROOT: ${{ github.action_path }}
+      run: |
+        Push-Location $env:ACTION_ROOT
+        try {
+          npm ci
+          if ($LASTEXITCODE -ne 0) { throw 'Dependency installation failed' }
+          npm run ci:check
+          if ($LASTEXITCODE -ne 0) { throw 'Prototype checks failed' }
+        } finally {
+          Pop-Location
+        }

@@ -1,0 +1,5 @@
+{
+  "scope": "Synthetic processor contracts only; these identifiers are not real PDF documents.",
+  "inputs": ["fixture-plain", "fixture-encrypted"],
+  "realPdfSupport": false
+}
