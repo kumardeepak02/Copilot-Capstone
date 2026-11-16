@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Habit Tracker</h1>
+    <form id="habit-form" class="add-form" autocomplete="off">
+      <input id="habit-input" class="add-input" type="text" placeholder="Enter a new habit..." aria-label="New habit name">
+      <button id="add-button" class="add-button" type="submit">Add Habit</button>
+    </form>
+    <p id="save-error" class="save-error" role="alert"></p>
+    <p id="empty-state" class="empty-state">No habits added yet. Start by adding one above!</p>
+    <ul id="habit-list" class="habit-list"></ul>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
