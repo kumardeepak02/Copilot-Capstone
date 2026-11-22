@@ -4,6 +4,7 @@
     { "path": "packages/docsync-core" },
     { "path": "packages/docsync-cli" },
     { "path": "packages/docsync-vscode-extension" },
-    { "path": "packages/stays-currency" }
+    { "path": "packages/stays-currency" },
+    { "path": "packages/habit-tracker-ui" }
   ]
 }
