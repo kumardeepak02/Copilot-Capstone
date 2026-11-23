@@ -1,0 +1,95 @@
+﻿.button {
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+/* Variants - Primary */
+.primary {
+  background-color: #0066cc;
+  color: white;
+  border: 2px solid #0066cc;
+}
+
+.primary:hover:not(:disabled) {
+  background-color: #0052a3;
+  border-color: #0052a3;
+}
+
+.primary:active:not(:disabled) {
+  background-color: #003d7a;
+}
+
+/* Variants - Secondary */
+.secondary {
+  background-color: transparent;
+  color: #0066cc;
+  border: 2px solid #0066cc;
+}
+
+.secondary:hover:not(:disabled) {
+  background-color: #f0f7ff;
+}
+
+.secondary:active:not(:disabled) {
+  background-color: #e0eeff;
+}
+
+/* Sizes */
+.sm {
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.md {
+  padding: 10px 16px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.lg {
+  padding: 12px 20px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* Disabled state */
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #cccccc;
+  border-color: #cccccc;
+  color: #666666;
+}
+
+/* Loading state */
+.button.loading {
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.spinner {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

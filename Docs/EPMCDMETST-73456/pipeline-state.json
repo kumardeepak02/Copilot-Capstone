@@ -1,0 +1,17 @@
+{
+  "ticket": "EPMCDMETST-73456",
+  "createdAt": "2026-11-23T21:58:20.378+05:30",
+  "updatedAt": "2026-11-23T22:54:36.007+05:30",
+  "currentStage": "pullRequest",
+  "processStatus": "in_progress",
+  "stages": {
+    "requirements": { "status": "completed", "artifact": "01-requirements.md" },
+    "architecture": { "status": "completed", "artifact": "02-architecture.md" },
+    "designReview": { "status": "completed", "artifact": "03-design-review.md", "approvedAt": "2026-11-23T22:06:26.230+05:30" },
+    "implementationPlan": { "status": "completed", "artifact": "04-impl-plan.md", "createdAt": "2026-11-23T22:09:54.680+05:30" },
+    "implementation": { "status": "completed", "artifact": "05-implementation-summary.md", "completedAt": "2026-11-23T22:45:00+05:30" },
+    "codeReview": { "status": "completed", "artifact": "06-code-review.md", "approvedAt": "2026-11-23T22:45:22+05:30" },
+    "verification": { "status": "completed", "artifact": "07-verification-report.md", "approvedAt": "2026-11-23T22:54:36.007+05:30" },
+    "pullRequest": { "status": "pending", "artifact": "08-pr-summary.md" }
+  }
+}
