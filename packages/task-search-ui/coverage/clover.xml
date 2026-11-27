@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1795596614551" clover="3.2.0">
+  <project timestamp="1795596614551" name="All files">
+    <metrics statements="90" coveredstatements="90" conditionals="43" coveredconditionals="39" methods="32" coveredmethods="32" elements="165" coveredelements="161" complexity="0" loc="90" ncloc="90" packages="2" files="6" classes="6"/>
+    <package name="components">
+      <metrics statements="56" coveredstatements="56" conditionals="38" coveredconditionals="35" methods="17" coveredmethods="17"/>
+      <file name="TaskFilterEngine.ts" path="C:\Users\deepak_kumar2\Projects\Copilot-Capstone\packages\task-search-ui\src\components\TaskFilterEngine.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="74" type="cond" truecount="3" falsecount="0"/>
+        <line num="32" count="28" type="stmt"/>
+        <line num="36" count="46" type="stmt"/>
+        <line num="39" count="46" type="stmt"/>
+        <line num="40" count="112401" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="4" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+      </file>
+      <file name="TaskListDisplay.tsx" path="C:\Users\deepak_kumar2\Projects\Copilot-Capstone\packages\task-search-ui\src\components\TaskListDisplay.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="18" coveredconditionals="15" methods="5" coveredmethods="5"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="62" count="67" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="7" type="stmt"/>
+        <line num="73" count="60" type="stmt"/>
+        <line num="74" count="140" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="81" count="1" type="cond" truecount="2" falsecount="1"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="95" count="60" type="stmt"/>
+        <line num="103" count="142" type="cond" truecount="1" falsecount="1"/>
+        <line num="117" count="3" type="stmt"/>
+      </file>
+      <file name="TaskSearchContainer.tsx" path="C:\Users\deepak_kumar2\Projects\Copilot-Capstone\packages\task-search-ui\src\components\TaskSearchContainer.tsx">
+        <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="78" count="51" type="stmt"/>
+        <line num="81" count="51" type="stmt"/>
+        <line num="82" count="20" type="stmt"/>
+        <line num="88" count="51" type="stmt"/>
+        <line num="89" count="10" type="stmt"/>
+        <line num="95" count="51" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="102" count="51" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="106" count="51" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
+      </file>
+      <file name="TaskSearchInput.tsx" path="C:\Users\deepak_kumar2\Projects\Copilot-Capstone\packages\task-search-ui\src\components\TaskSearchInput.tsx">
+        <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="65" count="144" type="stmt"/>
+        <line num="68" count="144" type="stmt"/>
+        <line num="76" count="144" type="stmt"/>
+        <line num="78" count="77" type="stmt"/>
+        <line num="79" count="77" type="stmt"/>
+        <line num="80" count="77" type="stmt"/>
+        <line num="88" count="144" type="stmt"/>
+        <line num="89" count="4" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="91" count="4" type="stmt"/>
+        <line num="97" count="144" type="stmt"/>
+        <line num="99" count="61" type="cond" truecount="1" falsecount="0"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="106" count="144" type="stmt"/>
+        <line num="142" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="34" coveredstatements="34" conditionals="5" coveredconditionals="4" methods="15" coveredmethods="15"/>
+      <file name="useInputDebouncer.ts" path="C:\Users\deepak_kumar2\Projects\Copilot-Capstone\packages\task-search-ui\src\hooks\useInputDebouncer.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="26" count="110" type="stmt"/>
+        <line num="29" count="110" type="stmt"/>
+        <line num="30" count="25" type="stmt"/>
+        <line num="31" count="25" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="17" type="stmt"/>
+        <line num="37" count="110" type="stmt"/>
+        <line num="40" count="62" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="45" type="stmt"/>
+        <line num="45" count="62" type="stmt"/>
+        <line num="46" count="13" type="stmt"/>
+        <line num="69" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="70" count="10" type="stmt"/>
+        <line num="72" count="10" type="stmt"/>
+        <line num="73" count="7" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="77" count="7" type="stmt"/>
+        <line num="80" count="10" type="stmt"/>
+        <line num="83" count="3" type="stmt"/>
+      </file>
+      <file name="useTaskListStateManager.ts" path="C:\Users\deepak_kumar2\Projects\Copilot-Capstone\packages\task-search-ui\src\hooks\useTaskListStateManager.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="43" count="51" type="stmt"/>
+        <line num="46" count="51" type="stmt"/>
+        <line num="55" count="51" type="stmt"/>
+        <line num="56" count="10" type="stmt"/>
+        <line num="66" count="51" type="stmt"/>
+        <line num="67" count="20" type="stmt"/>
+        <line num="68" count="20" type="stmt"/>
+        <line num="78" count="51" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="86" count="51" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
